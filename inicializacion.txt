@@ -1,0 +1,117 @@
+	
+	PARA PODER USAR PYTHON EN LA MAQUINA
+	EN NUESTRO ENTORNO PERSONAL
+	
+en LINUX UBUNTU
+
+GENERALEMENTE YA VIENE PREINSTALADO 
+-----------------------------------------------------
+	CONCLUCION
+1. instalamos python3 para la terminal
+	(geralmente ya viene)
+	
+2. instalamos python para VS CODE
+	(desde extensiones)
+	(podemos ejecutar archivos .py
+	desde la terminal con $python3 ...)
+
+
+
+
+---------------------------------------------------------
+
+	INGRESAMOS AL ENTRONO DE PYTHON DESDE LA TERMINAL
+	
+	///////////
+	$ python3
+	
+	
+#te va a a abrir un entorno dentro de la terminal
+#aqui ya podemos programar en python
+
+//////cerramos este entorno con
+	exit()
+	
+------------------------------------------------------------------------------------------------------------------
+
+
+
+		INSTALAMOS
+
+
+
+1.SI NO TENEMOS PYTHON:
+		Instalación
+
+   	 apt update
+   	 sudo apt update
+    	 sudo apt -y upgrade
+
+
+2. INSTALAMOS EL GESTOR DE PAQUETES DE DEPENDENCIAS
+	(PIP)
+	////sudo apt insstall -y python3-pip
+
+
+3. INSTALAMOS DEPENDENCIAS EN ENTORNO PROFESIONALS
+	
+   ///// apt install -y build-essential libssl-dev 	libffi-dev python3-dev
+
+
+	-----------------------------------
+
+
+####podemos ver si algo està instalado y su version con
+
+pip -V
+python -V
+
+o cualquier otro programa
+--------------------------------------------------------
+------------------------------------------------------
+
+
+
+
+
+
+
+-----------------------------------------------------
+
+CONFIGURANDO VSCODE PARA 
+UN ENTORNO PROFESIONAL CON PYTHON
+
+instalaremos extenciones
+
+
+1. desde el area de extensiones de vs code
+	INSTALAMOS PYTHON
+	
+2.EN UBUNTU NO HACE FALTA NADA MAS
+
+ahora podemos crear un archivo python con
+
+///////////// .py  /////////////////////////////////
+
+
+
+
+#EN EL EMULADOR PARA WINDOWS WSL SI HACE FALTA INSTALAR
+LA EXTENSION DE WSL
+
+------------------------------------------------
+
+ahora ya podemos ejecutar estos archivos desde la
+
+	TERMINAL
+	
+$python3 archivo.py
+
+	y se inicializará todo el codigo que le hayamos puesto al archivo
+	
+....................................................
+
+
+
+
+
