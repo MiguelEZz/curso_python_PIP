@@ -1,1 +1,66 @@
 CONECTAMOS NUESTRO PORYECTO CON GITHUB
+
+
+	FLUJO DE TRABAJO CON UN REPOSITORIO
+	LOCAL Y REMOTO
+..  ..  ..  ..  .. .. ... .. .. .. .. .. .. . . . . .  
+REMEMBER THE WORK FLOW WITH REMOTE REPOSITORY
+
+		1
+	changes in local     
+		2
+	add to staging        git add .
+		3
+	commit with coment    commit -m ""
+		4 
+p	ush to git hub		git push
+
+..  ..  ..  .. .. . .. .. .. .. .. .. .. ... ... . .
+
+
+
+	CONECTARLO CON GIT HUB
+
+1.PRIMERO CREAMOS EL REPOSITORIO EN GIT HUB
+
+2.TERMINAL. CONECTAR
+	_git init... inicializamos un repositorio local
+	_git add. agregar los archivos que tenga esta carpeta
+	_git commit -m "". primer commit
+	
+	_git remote add origin git@github.com:MiguelEZz/curso_python_PIP.git
+	
+	#ya estsá ahora reflescas la pagina de git hub y tu repo
+	sitorio va a estár
+	
+	RECUERDA ANTES CONFIGURAR LAS LLAVES SSH, PARA MEJOR
+	SEGURIDAD
+
+-----------------------------------------------------------------
+
+
+ARCHIVOS IMPORTANTES
+
+	_.gitignore
+		aqui van las carpetas que el git va a ignorar
+		ocupan espacio innesesariamente
+		
+		podemos importar un git ignore desde gitignore.io
+		LE COLOCAMOS
+		LINUX WINDOWS MACos PYTHON
+		
+		y te gerera un archivo largo que copias y agregas
+		al archivo .gitignore en el repositorio
+		
+	_README.md
+		son instrucciones del proyecto
+		para colaboradores o compañeros
+		para que lo puedan ejecutar correctamente
+		
+		
+DESPUES DE AGREGAR ESTOS ARCHIVOS HACEMOS GIT 
+	GIT ADD
+	GIT COMMIT -M ""
+	GIT PUSH ORIGIN MAIN
+		
+		
