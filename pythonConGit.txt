@@ -61,6 +61,23 @@ ARCHIVOS IMPORTANTES
 DESPUES DE AGREGAR ESTOS ARCHIVOS HACEMOS GIT 
 	GIT ADD
 	GIT COMMIT -M ""
-	GIT PUSH ORIGIN MAIN
+	GIT PUSH
 		
 		
+	------------------------------------------------s
+
+LISTO AHORA YA ESTAMOS CONECTADOS AL REPOSITORIO REMOTO
+WAZA
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+	
+	
+	
+-------------------------------------------------------------------
+   FLUJO DE TRABAJO PROFESIONAL CON PYTHON. vsCODE. git . TERMINAL
+   
+
