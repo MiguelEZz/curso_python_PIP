@@ -1,0 +1,127 @@
+PIP ES EL GESTOR DE PAQUETES QUE VIENE CON PYTHON3
+
+
+-------------------------------------------------------------
+/////INSTALAR PIP3/////////
+
+	GENERALEMENTE YA VIENE INSTALADO
+	
+	1.sudo apt-get update
+		para actualizar paquetes
+		
+	2.sudo apt-get install python3-pip
+		para instalar pip
+		
+	3.pip3 -V
+		para ver si ya lo tenemos instalado
+	
+-------------------------------------------------------------
+
+
+
+	CON PIP. PODREMOS INSTALAR LIBRERIAS DE TERCEROS
+	
+	COMO LO HICIMOS CON MATPLOTIB
+	
+--------------------------------------------------------
+
+
+////////INSTALANDO LIBRERIAS CON PIP3////////
+
+1. PyPI	
+	buscamos en el navegador
+	
+2. ESCOJEMOS LA LIBRERIA QU EQUEREMOS
+
+	Y COPIAMOS SU COMANDO DE INSTALACION
+	
+3. pip3 install <libreria>.
+	 Instalación de paquetes 
+	
+4. pip3 list
+	Listar las librerías que se tienen en el entorno de python 		
+	gloval
+
+5. pip3 freeze.
+	Listar todas las librerías de python instaladas por el 	
+	usuario
+	
+	
+	
+	>>LISTO AHORA YA TENEMOS LA LIBRERIA ISNTALADA Y LA PODEMOS USAR EN LOS PROYECTOS IMPORTANDOLOS<<<<
+	
+	
+	
+
+	
+	
+	
+EJERCICIO PRACTICO
+
+1. descargamos los archivos que nor servian para generar graficos de acuerdo a un csv
+
+2. los ajustamos para nuestro entorno
+
+3. envez del show()
+ usamos savefig("archvo.png")
+ 	para que se guarde la imagen en el direcotirio
+
+4. corremos eeste main.py desde el directorio
+	python3 main.py
+	
+5. se descargará el archivo que le dijimos
+	(podemos darle el nombre que queramos)
+	
+	
+	YA ESTA PAPU
+
+
+TODO LO QUE APRENDIMOS EN MODULOS SE APLICA IGUALMENTE EN EL DIRECTORIO
+
+LAS CARPETAS SON IGUALES QUE EN REPLIT
+ 
+ Y LOS COMANDOS IGUAL
+ 
+ ---------------------------------------------------------
+
+
+
++ SCV
+	
+	
+	
+import csv
+import matplotlib.pyplot as plt
+
+
+def encontrar(path, name):
+  with open(path, 'r') as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    capish = filter(lambda x: x[2] == name, reader)
+    capish = next(capish)
+  print(capish)
+  label = ["70", "80", "90", "2000", "2010", "2020"]
+  val = []
+  
+  for i in range(12,6,-1):
+    val.append(int(capish[i])/1000000)
+      
+  print(val)
+  return label,val
+
+
+if __name__ == "__main__":
+  label, val = encontrar("data.csv", "China")
+
+  def generate_bar_chart(labels, values):
+    fig, ax = plt.subplots()
+    ax.bar(labels, values)
+    plt.savefig("countryChard.png")
+
+  generate_bar_chart(label, val)
+
+
+
+
+
+

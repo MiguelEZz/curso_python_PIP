@@ -77,7 +77,41 @@ WAZA
 	
 	
 	
+	
+	
+	
 -------------------------------------------------------------------
    FLUJO DE TRABAJO PROFESIONAL CON PYTHON. vsCODE. git . TERMINAL
    
+TENEMOS LA CARPETA 
 
+PROYECTO
+  |GAME
+  	piedra,papel,tijera.py
+  archivos.txt
+  .gitignore
+  
+  hemos agregado el proyecto de piedra papaleo tijera
+  
+  
+  
+  
+ ////////FLUJO DE TRABAJO/////////////////////////////
+ 
+ 1. HACES LOS CAMBIOS AL PROYECTO
+ 
+ 2. AGREGAS AL REPOSITORIO LOCAL
+ 	git add .
+ 	git commit -m "changes"
+ 	
+3. AGREGAMOS AL REP REMOTO
+	git push
+	
+		#podemos correr el juego
+		 #1, nos ubicamos en la carpeta donde está
+		 #2, python3  game.py
+		 	Y PODREMOS VER LOS RESULTADOS DESDE LA 
+		 	TERMINAL
+
+
+..------------------------------------------------------------

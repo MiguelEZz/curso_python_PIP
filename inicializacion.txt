@@ -13,7 +13,7 @@ GENERALEMENTE YA VIENE PREINSTALADO
 2. instalamos python para VS CODE
 	(desde extensiones)
 	(podemos ejecutar archivos .py
-	desde la terminal con $python3 ...)
+	desde la terminal con $python3 ...) 
 
 
 
